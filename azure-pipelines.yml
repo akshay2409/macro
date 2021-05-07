@@ -13,35 +13,19 @@ parameters:
     type: string
     default: C:\AVIMARK\Automation\Avimark
   - name: SCRIPT_NAME
-    displayName: Target Nexial Plan
+    displayName: Target Nexial script
     type: string
-    default: Appointment
+    default: macroTest
     values:
-      - Accounting
-      - Appointment
-      - AppointmentToInvoice
-      - BoardingCalendar
-      - ClientandPatient
-      - DentalChart
-      - DrugLables
-      - EndOfPeriodReports
-      - Idexx
-      - InfoSearch
-      - InventoryList
-      - Invoice
-      - MedicalConditionRecord
-      - MedicalHistory
-      - MoreStuff
-      - Server
-      - Statements
-      - TimeCard
-      - TreatmentList
-      - Unauthorized
-      - WhiteBoard
+      - complex-script
+      - macro1Test
+      - macroTest2
+      - macroTest
+      - wrongTotalStepTally
 
 trigger: none
 
-pool: LocalAgents
+pool: LocalAgent
 #   vmImage: ubuntu-latest
 
 steps:
