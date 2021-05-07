@@ -1,0 +1,61 @@
+{
+  "nexial-plan": {
+    "plan": "C:\\projects\\macro\\artifact\\plan\\macro-plan.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "memory": "16GB",
+    "interactive": false
+  },
+  "nexial-plan12": {
+    "plan": "C:\\projects\\macro\\artifact\\plan\\macro-plan.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "memory": "16GB",
+    "interactive": false
+  },
+  "nexial-script455": {
+    "script": "C:\\projects\\macro\\artifact\\script\\macroTest2.xlsx",
+    "data": "C:\\projects\\macro\\artifact\\data\\macroTest2.data.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "override": {
+      "nexial.verbose": "",
+      "nexial.browser": "chrome",
+      "profile": "data"
+    },
+    "memory": "16GB",
+    "interactive": false
+  },
+  "nexial-script": {
+    "script": "C:\\projects\\macro\\artifact\\script\\macro2Test.xlsx",
+    "data": "C:\\projects\\macro\\artifact\\data\\macro2Test.data.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "override": {
+      "nexial.verbose": "true",
+      "profile": "data"
+    },
+    "interactive": false
+  },
+  "nexial-script10": {
+    "script": "C:\\projects\\macro\\artifact\\script\\macro2Test.xlsx",
+    "data": "C:\\projects\\macro\\artifact\\data\\macro2Test.data.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "override": {
+      "nexial.verbose": "true",
+      "profile": "data"
+    },
+    "interactive": false
+  },
+  "macro2Test": {
+    "script": "C:\\projects\\macro\\artifact\\script\\macro2Test.xlsx",
+    "data": "C:\\projects\\macro\\artifact\\data\\macro2Test.data.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "interactive": false
+  },
+  "macroTest2": {
+    "script": "C:\\projects\\macro\\artifact\\script\\macroTest.xlsx",
+    "interactive": false
+  },
+  "DemoProfile23": {
+    "script": "C:\\projects\\macro\\artifact\\script\\macroTest.xlsx",
+    "outputBase": "C:\\projects\\macro\\output",
+    "interactive": true
+  }
+}

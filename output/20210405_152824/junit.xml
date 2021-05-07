@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20210405_152824" timestamp="2021-04-05T15:28:26" time="21.353" tests="-1" errors="0">
+  <testsuite id="1" name="wrongTotalStepTally" package="wrongTotalStepTally" hostname="ALIPLR3132" timestamp="2021-04-05T15:28:29" time="16.056" tests="-1" errors="0">
+    <properties>
+      <property name="Run From" value="ALIPLR3132" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="AL3097" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="wrongTotalStepTally.xlsx" />
+      <property name="Logs" value="C:\projects\macro\output\20210405_152824\logs\nexial-20210405_152824.log" />
+      <property name="Data File" value="wrongTotalStepTally.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario1" timestamp="2021-04-05T15:28:30" time="14.308">
+      <system-out>Total : -1
+Passed: 3
+Failed: 0
+Output: C:\projects\macro\output\20210405_152824\wrongTotalStepTally.20210405_152829.001.xlsx
+Logs  : C:\projects\macro\output\20210405_152824\logs\nexial-20210405_152824.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,118 @@
+2021-03-23 13:15:10.528|I|Thread-2|(DELAYED) nexial-DEV starting up...
+2021-03-23 13:15:10.534|I|Thread-2|(DELAYED) cleaning up outdated temp files...
+2021-03-23 13:15:10.535|I|Thread-2|(DELAYED) data file resolved as C:\Users\AL3097\AppData\Local\Temp\ArQUB\wrongTotalStepTally.data.xlsx
+2021-03-23 13:15:10.535|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-03-23 13:15:10.535|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-03-23 13:15:10.535|I|Thread-2|(DELAYED) input files and output directory resolved...
+2021-03-23 13:15:10.535|I|Thread-2|(DELAYED) No predefined nexial-setup found
+2021-03-23 13:15:10.536|I|Thread-2|(DELAYED) re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-03-23 13:15:10.537|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-03-23 13:15:10.537|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-03-23 13:15:10.537|I|Thread-2|(DELAYED) [20210323_131508] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] resolve RUN ID as 20210323_131508
+2021-03-23 13:15:10.537|I|Thread-2|(DELAYED) [20210323_131508] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] new thread started
+2021-03-23 13:15:10.537|I|Thread-2|No predefined nexial-setup found
+2021-03-23 13:15:11.200|I|Thread-2|outputBase not set; output-to-cloud DISABLED!
+2021-03-23 13:15:11.200|I|Thread-2|accessKey not set; output-to-cloud DISABLED!
+2021-03-23 13:15:11.200|I|Thread-2|secretKey not set; output-to-cloud DISABLED!
+2021-03-23 13:15:11.773|I|Thread-2|missing REQUIRED configuration; sms DISABLED!
+2021-03-23 13:15:12.527|I|Thread-2|On-Demand Inspection detection enabled
+2021-03-23 13:15:12.528|I|Thread-2|[20210323_131508] executing C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx with 1 iteration(s)
+2021-03-23 13:15:12.532|I|Thread-2|[20210323_131508] create directory C:\projects\macro\output\20210323_131508\captures
+2021-03-23 13:15:12.533|I|Thread-2|[20210323_131508] create directory C:\projects\macro\output\20210323_131508\logs
+2021-03-23 13:15:12.861|I|Thread-2|[20210323_131508] merging test data to tmp file C:\projects\macro\output\20210323_131508\wrongTotalStepTally.20210323_131512.001.xlsx
+2021-03-23 13:15:12.861|I|Thread-2|re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-03-23 13:15:12.951|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-03-23 13:15:13.103|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-03-23 13:15:13.470|I|Thread-2|[20210323_131508] test script and test data merged to C:\projects\macro\output\20210323_131508\wrongTotalStepTally.20210323_131512.001.xlsx
+2021-03-23 13:15:14.293|I|Thread-2|STARTS
+2021-03-23 13:15:14.323|I|Thread-2|wrongTotalStepTally.20210323_131512.001 - executing iteration #1 of 1; Iteration Id 1
+2021-03-23 13:15:14.331|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1 - executing test scenario
+2021-03-23 13:15:14.332|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 - executing activity
+2021-03-23 13:15:14.936|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray)
+2021-03-23 13:15:15.784|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  6|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-03-23 13:15:15.816|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  6|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-03-23 13:15:16.417|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  7|base.save(var,value)      - executing save(var,value)(counter, 0)
+2021-03-23 13:15:16.423|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  7|base.save(var,value)      - PASS stored '0' as ${counter}
+2021-03-23 13:15:17.024|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  8|base.save(var,value)      - executing save(var,value)(countries, )
+2021-03-23 13:15:17.030|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  8|base.save(var,value)      - PASS stored '' as ${countries}
+2021-03-23 13:15:17.632|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  9|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-03-23 13:15:17.701|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|#  9|base.save(var,value)      - PASS stored '1' as ${size}
+2021-03-23 13:15:18.332|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 10|base.repeatUntil(steps,ma - executing repeatUntil(steps,maxWaitMs)(4, -1)
+2021-03-23 13:15:18.333|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - 
+<[repeat-until] entering loop #1 --------------------------------------------->
+2021-03-23 13:15:18.333|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - executing assertEqual(expected,actual)(${counter}, ${size})
+2021-03-23 13:15:18.335|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 12|base.save(var,value)      - executing save(var,value)(country, $(array|item|list1|${counter}))
+2021-03-23 13:15:18.342|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 12|base.save(var,value)      - [repeat-until] PASS stored 'list1' as ${country}
+2021-03-23 13:15:18.343|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 13|base.appendText(var,appen - executing appendText(var,appendWith)(countries, ${country},)
+2021-03-23 13:15:18.373|I|Thread-2|evaluating flow control:	ProceedIf(list1 start with U)		=> NOT MATCHED
+2021-03-23 13:15:18.374|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 13|base.appendText(var,appen - [repeat-until] SKIPPED current step skipped: NOT TRUE(${country} start with U)
+2021-03-23 13:15:18.375|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 14|number.increment(var,amou - executing increment(var,amount)(counter, 1)
+2021-03-23 13:15:18.393|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 14|number.increment(var,amou - [repeat-until] PASS incremented ${counter} by 1 to 1
+2021-03-23 13:15:18.394|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - 
+<[repeat-until] entering loop #2 --------------------------------------------->
+2021-03-23 13:15:18.394|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - executing assertEqual(expected,actual)(${counter}, ${size})
+2021-03-23 13:15:18.400|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 10|base.repeatUntil(steps,ma - PASS repeat-until execution completed
+2021-03-23 13:15:19.001|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 15|base.verbose(text)        - executing verbose(text)(${countries})
+2021-03-23 13:15:19.002|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 15|base.verbose(text)        - 
+
+2021-03-23 13:15:19.006|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 (addArray)|# 15|base.verbose(text)        - PASS 
+2021-03-23 13:15:19.212|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - PASS Macro successfully executed
+2021-03-23 13:15:19.213|I|Thread-2|wrongTotalStepTally.20210323_131512.001|Scenario1|Activity 1 - ending activity
+2021-03-23 13:15:19.987|I|Thread-2|[wrongTotalStepTally.20210323_131512.001|Scenario1] saving test scenario
+2021-03-23 13:15:20.123|I|Thread-2|[20210323_131508] 
+/-ITERATION COMPLETE------------------------------------------------------------
+| Test Output:    C:\projects\macro\output\20210323_131508\wrongTotalStepTally.20210323_131512.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 5797 ms
+» Test Steps:     7
+» Error(s):       0
+
+
+
+2021-03-23 13:15:21.843|I|Thread-2|[20210323_131508] 
+/-SCRIPT COMPLETE---------------------------------------------------------------
+| Test Script:    C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 11603 ms
+» Iterations:     [1] total 1
+» Test Steps:     7
+» Passed:         7
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\macro\output\20210323_131508\wrongTotalStepTally.20210323_131512.001.xlsx
+
+
+
+2021-03-23 13:15:21.844|I|Thread-2|nexial mailer not enabled: nexial.enableEmail=false
+2021-03-23 13:15:22.194|I|main|[20210323_131508] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] now completed
+2021-03-23 13:15:22.195|I|main|[20210323_131508] all execution thread(s) have terminated
+2021-03-23 13:15:22.195|I|main|[20210323_131508] test run completed in about 13 seconds
+2021-03-23 13:15:22.314|I|main|No predefined nexial-setup found
+2021-03-23 13:15:22.343|I|main|outputBase not set; output-to-cloud DISABLED!
+2021-03-23 13:15:22.343|I|main|accessKey not set; output-to-cloud DISABLED!
+2021-03-23 13:15:22.343|I|main|secretKey not set; output-to-cloud DISABLED!
+2021-03-23 13:15:22.343|I|main|generating HTML output for this execution to C:\projects\macro\output\20210323_131508\execution-output.html
+2021-03-23 13:15:23.744|I|main|generating JUnit XML output for this execution to C:\projects\macro\output\20210323_131508\junit.xml
+2021-03-23 13:15:23.794|I|main|generated JUnit report for this execution: C:\projects\macro\output\20210323_131508\junit.xml
+2021-03-23 13:15:23.799|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2021-03-23 13:15:23.799|I|main|skipped email notification as configured
+2021-03-23 13:15:23.799|I|main|exiting Nexial...
+2021-03-23 13:15:23.799|I|main|shutdown starts...
+2021-03-23 13:15:23.799|I|main|shutdown ends...
+2021-03-23 13:15:23.800|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 12 sec.
+| » Test Steps....: 7
+| » Passed........: 7
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\--------------------------------------------------------------------nexial-DEV-
+
+2021-03-23 13:15:23.800|I|main|ALL PASSED!
+2021-03-23 13:15:23.800|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\macro\output\20210323_131508
+NEXIAL_EXECUTION_HTML: C:\projects\macro\output\20210323_131508\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\macro\output\20210323_131508\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

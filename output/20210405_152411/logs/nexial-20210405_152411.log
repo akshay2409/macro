@@ -1,0 +1,45 @@
+2021-04-05 15:24:14.270|I|Thread-2|(DELAYED) nexial-DEV starting up...
+2021-04-05 15:24:14.279|I|Thread-2|(DELAYED) cleaning up outdated temp files...
+2021-04-05 15:24:14.279|I|Thread-2|(DELAYED) data file resolved as C:\Users\AL3097\AppData\Local\Temp\AhoyJ\wrongTotalStepTally.data.xlsx
+2021-04-05 15:24:14.279|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:24:14.279|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:24:14.279|I|Thread-2|(DELAYED) input files and output directory resolved...
+2021-04-05 15:24:14.279|I|Thread-2|(DELAYED) No predefined nexial-setup found
+2021-04-05 15:24:14.280|I|Thread-2|(DELAYED) re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-04-05 15:24:14.281|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:24:14.281|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:24:14.281|I|Thread-2|(DELAYED) [20210405_152411] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] resolve RUN ID as 20210405_152411
+2021-04-05 15:24:14.281|I|Thread-2|(DELAYED) [20210405_152411] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] new thread started
+2021-04-05 15:24:14.281|I|Thread-2|No predefined nexial-setup found
+2021-04-05 15:24:15.153|I|Thread-2|outputBase not set; output-to-cloud DISABLED!
+2021-04-05 15:24:15.153|I|Thread-2|accessKey not set; output-to-cloud DISABLED!
+2021-04-05 15:24:15.153|I|Thread-2|secretKey not set; output-to-cloud DISABLED!
+2021-04-05 15:24:15.855|I|Thread-2|missing REQUIRED configuration; sms DISABLED!
+2021-04-05 15:24:16.975|I|Thread-2|On-Demand Inspection detection enabled
+2021-04-05 15:24:16.976|I|Thread-2|[20210405_152411] executing C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx with 1 iteration(s)
+2021-04-05 15:24:16.980|I|Thread-2|[20210405_152411] create directory C:\projects\macro\output\20210405_152411\captures
+2021-04-05 15:24:16.981|I|Thread-2|[20210405_152411] create directory C:\projects\macro\output\20210405_152411\logs
+2021-04-05 15:24:17.375|I|Thread-2|[20210405_152411] merging test data to tmp file C:\projects\macro\output\20210405_152411\wrongTotalStepTally.20210405_152416.001.xlsx
+2021-04-05 15:24:17.375|I|Thread-2|re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-04-05 15:24:17.514|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-04-05 15:24:17.709|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-04-05 15:24:18.113|I|Thread-2|[20210405_152411] test script and test data merged to C:\projects\macro\output\20210405_152411\wrongTotalStepTally.20210405_152416.001.xlsx
+2021-04-05 15:24:18.961|I|Thread-2|STARTS
+2021-04-05 15:24:18.987|I|Thread-2|skipping test step in ROW 5 since it's disabled
+2021-04-05 15:24:19.067|I|Thread-2|wrongTotalStepTally.20210405_152416.001 - executing iteration #1 of 1; Iteration Id 1
+2021-04-05 15:24:19.078|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1 - executing test scenario
+2021-04-05 15:24:19.079|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1 - executing activity
+2021-04-05 15:24:19.682|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray)
+2021-04-05 15:24:19.688|I|Thread-2|evaluating flow control:	SkipIf(true = true)		=> MATCHED
+2021-04-05 15:24:19.882|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - SKIPPED current step skipped: SkipIf(true)
+2021-04-05 15:24:22.779|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  6|base.section(steps)       - executing section(steps)(2)
+2021-04-05 15:24:22.806|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  6|base.section(steps)       - PASS null
+2021-04-05 15:24:24.771|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  7|base.save(var,value)      - executing save(var,value)(count, 0)
+2021-04-05 15:24:24.774|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  7|base.save(var,value)      - PASS stored '0' as ${count}
+2021-04-05 15:24:26.783|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  8|base.repeatUntil(steps,ma - executing repeatUntil(steps,maxWaitMs)(4, -1)
+2021-04-05 15:24:29.031|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #1 --------------------------------------------->
+2021-04-05 15:24:29.032|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 15:24:29.767|I|Thread-2|wrongTotalStepTally.20210405_152416.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 15:27:33.007|I|Thread-1|shutdown starts...
+2021-04-05 15:27:33.009|I|Thread-1|shutdown ends...

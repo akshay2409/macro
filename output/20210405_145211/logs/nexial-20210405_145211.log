@@ -1,0 +1,235 @@
+2021-04-05 14:52:13.922|I|Thread-2|(DELAYED) nexial-DEV starting up...
+2021-04-05 14:52:13.928|I|Thread-2|(DELAYED) cleaning up outdated temp files...
+2021-04-05 14:52:13.928|I|Thread-2|(DELAYED) data file resolved as C:\Users\AL3097\AppData\Local\Temp\YVHSb\wrongTotalStepTally.data.xlsx
+2021-04-05 14:52:13.928|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 14:52:13.928|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 14:52:13.928|I|Thread-2|(DELAYED) input files and output directory resolved...
+2021-04-05 14:52:13.928|I|Thread-2|(DELAYED) No predefined nexial-setup found
+2021-04-05 14:52:13.963|I|Thread-2|(DELAYED) re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-04-05 14:52:13.963|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 14:52:13.963|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 14:52:13.963|I|Thread-2|(DELAYED) [20210405_145211] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] resolve RUN ID as 20210405_145211
+2021-04-05 14:52:13.963|I|Thread-2|(DELAYED) [20210405_145211] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] new thread started
+2021-04-05 14:52:13.963|I|Thread-2|No predefined nexial-setup found
+2021-04-05 14:52:14.640|I|Thread-2|outputBase not set; output-to-cloud DISABLED!
+2021-04-05 14:52:14.640|I|Thread-2|accessKey not set; output-to-cloud DISABLED!
+2021-04-05 14:52:14.640|I|Thread-2|secretKey not set; output-to-cloud DISABLED!
+2021-04-05 14:52:15.225|I|Thread-2|missing REQUIRED configuration; sms DISABLED!
+2021-04-05 14:52:15.982|I|Thread-2|On-Demand Inspection detection enabled
+2021-04-05 14:52:15.983|I|Thread-2|[20210405_145211] executing C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx with 1 iteration(s)
+2021-04-05 14:52:15.986|I|Thread-2|[20210405_145211] create directory C:\projects\macro\output\20210405_145211\captures
+2021-04-05 14:52:15.986|I|Thread-2|[20210405_145211] create directory C:\projects\macro\output\20210405_145211\logs
+2021-04-05 14:52:16.325|I|Thread-2|[20210405_145211] merging test data to tmp file C:\projects\macro\output\20210405_145211\wrongTotalStepTally.20210405_145215.001.xlsx
+2021-04-05 14:52:16.325|I|Thread-2|re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-04-05 14:52:16.414|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-04-05 14:52:16.599|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-04-05 14:52:16.990|I|Thread-2|[20210405_145211] test script and test data merged to C:\projects\macro\output\20210405_145211\wrongTotalStepTally.20210405_145215.001.xlsx
+2021-04-05 14:52:17.709|I|Thread-2|STARTS
+2021-04-05 14:52:17.761|I|Thread-2|wrongTotalStepTally.20210405_145215.001 - executing iteration #1 of 1; Iteration Id 1
+2021-04-05 14:52:17.768|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1 - executing test scenario
+2021-04-05 14:52:17.769|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 - executing activity
+2021-04-05 14:52:18.372|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray)
+2021-04-05 14:52:19.198|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  6|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-04-05 14:52:19.207|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  6|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-04-05 14:52:19.809|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  7|base.save(var,value)      - executing save(var,value)(counter, 0)
+2021-04-05 14:52:19.812|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  7|base.save(var,value)      - PASS stored '0' as ${counter}
+2021-04-05 14:52:20.414|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  8|base.save(var,value)      - executing save(var,value)(countries, )
+2021-04-05 14:52:20.420|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  8|base.save(var,value)      - PASS stored '' as ${countries}
+2021-04-05 14:52:21.024|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  9|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-04-05 14:52:21.049|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|#  9|base.save(var,value)      - PASS stored '1' as ${size}
+2021-04-05 14:52:21.657|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 10|base.repeatUntil(steps,ma - executing repeatUntil(steps,maxWaitMs)(4, -1)
+2021-04-05 14:52:21.659|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - 
+<[repeat-until] entering loop #1 --------------------------------------------->
+2021-04-05 14:52:21.660|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - executing assertEqual(expected,actual)(${counter}, ${size})
+2021-04-05 14:52:21.666|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 12|base.save(var,value)      - executing save(var,value)(country, $(array|item|list1|${counter}))
+2021-04-05 14:52:21.673|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 12|base.save(var,value)      - [repeat-until] PASS stored 'list1' as ${country}
+2021-04-05 14:52:21.674|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 13|base.appendText(var,appen - executing appendText(var,appendWith)(countries, ${country},)
+2021-04-05 14:52:21.682|I|Thread-2|evaluating flow control:	ProceedIf(list1 start with U)		=> NOT MATCHED
+2021-04-05 14:52:21.684|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 13|base.appendText(var,appen - [repeat-until] SKIPPED current step skipped: NOT TRUE(${country} start with U)
+2021-04-05 14:52:21.685|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 14|number.increment(var,amou - executing increment(var,amount)(counter, 1)
+2021-04-05 14:52:21.690|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 14|number.increment(var,amou - [repeat-until] PASS incremented ${counter} by 1 to 1
+2021-04-05 14:52:21.691|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - 
+<[repeat-until] entering loop #2 --------------------------------------------->
+2021-04-05 14:52:21.691|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 11|base.assertEqual(expected - executing assertEqual(expected,actual)(${counter}, ${size})
+2021-04-05 14:52:21.695|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 10|base.repeatUntil(steps,ma - PASS repeat-until execution completed
+2021-04-05 14:52:22.296|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 15|base.verbose(text)        - executing verbose(text)(${countries})
+2021-04-05 14:52:22.298|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 15|base.verbose(text)        - 
+
+2021-04-05 14:52:22.302|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray)|# 15|base.verbose(text)        - PASS 
+2021-04-05 14:52:22.520|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - PASS Macro successfully executed
+2021-04-05 14:52:23.121|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  6|base.section(steps)       - executing section(steps)(2)
+2021-04-05 14:52:23.126|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  6|base.section(steps)       - PASS null
+2021-04-05 14:52:23.729|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  7|base.save(var,value)      - executing save(var,value)(count, 0)
+2021-04-05 14:52:23.735|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  7|base.save(var,value)      - PASS stored '0' as ${count}
+2021-04-05 14:52:24.336|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  8|base.repeatUntil(steps,ma - executing repeatUntil(steps,maxWaitMs)(4, -1)
+2021-04-05 14:52:24.337|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #1 --------------------------------------------->
+2021-04-05 14:52:24.338|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 14:52:24.341|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 14:52:25.147|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-04-05 14:52:25.147|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-04-05 14:52:25.747|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - executing save(var,value)(countries, )
+2021-04-05 14:52:25.749|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - PASS stored '' as ${countries}
+2021-04-05 14:52:26.350|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-04-05 14:52:26.352|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - PASS stored '1' as ${size}
+2021-04-05 14:52:26.954|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - executing section(steps)(2)
+2021-04-05 14:52:26.956|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - PASS null
+2021-04-05 14:52:27.556|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - executing save(var,value)(country, $(array|item|list1|1))
+2021-04-05 14:52:27.558|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - PASS stored '' as ${country}
+2021-04-05 14:52:28.159|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - executing section(steps)(1)
+2021-04-05 14:52:28.160|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - PASS null
+2021-04-05 14:52:28.760|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - executing verbose(text)(${country})
+2021-04-05 14:52:28.761|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - 
+
+2021-04-05 14:52:28.762|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - PASS 
+2021-04-05 14:52:28.764|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - [repeat-until] PASS Macro successfully executed
+2021-04-05 14:52:28.765|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - executing verbose(text)(Nothing is changed)
+2021-04-05 14:52:28.766|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - 
+Nothing is changed
+2021-04-05 14:52:28.767|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - [repeat-until] PASS Nothing is changed
+2021-04-05 14:52:28.768|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - executing increment(var,amount)(count, 1)
+2021-04-05 14:52:28.770|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - [repeat-until] PASS incremented ${count} by 1 to 1
+2021-04-05 14:52:28.771|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #2 --------------------------------------------->
+2021-04-05 14:52:28.771|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 14:52:28.773|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 14:52:29.582|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-04-05 14:52:29.583|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-04-05 14:52:30.184|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - executing save(var,value)(countries, )
+2021-04-05 14:52:30.185|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - PASS stored '' as ${countries}
+2021-04-05 14:52:30.786|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-04-05 14:52:30.788|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - PASS stored '1' as ${size}
+2021-04-05 14:52:31.388|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - executing section(steps)(2)
+2021-04-05 14:52:31.389|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - PASS null
+2021-04-05 14:52:31.990|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - executing save(var,value)(country, $(array|item|list1|1))
+2021-04-05 14:52:31.991|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - PASS stored '' as ${country}
+2021-04-05 14:52:32.593|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - executing section(steps)(1)
+2021-04-05 14:52:32.593|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - PASS null
+2021-04-05 14:52:33.195|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - executing verbose(text)(${country})
+2021-04-05 14:52:33.196|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - 
+
+2021-04-05 14:52:33.197|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - PASS 
+2021-04-05 14:52:33.197|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - [repeat-until] PASS Macro successfully executed
+2021-04-05 14:52:33.199|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - executing verbose(text)(Nothing is changed)
+2021-04-05 14:52:33.200|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - 
+Nothing is changed
+2021-04-05 14:52:33.200|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - [repeat-until] PASS Nothing is changed
+2021-04-05 14:52:33.201|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - executing increment(var,amount)(count, 1)
+2021-04-05 14:52:33.203|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - [repeat-until] PASS incremented ${count} by 1 to 2
+2021-04-05 14:52:33.204|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #3 --------------------------------------------->
+2021-04-05 14:52:33.205|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 14:52:33.206|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 14:52:34.021|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-04-05 14:52:34.021|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-04-05 14:52:34.622|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - executing save(var,value)(countries, )
+2021-04-05 14:52:34.624|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - PASS stored '' as ${countries}
+2021-04-05 14:52:35.224|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-04-05 14:52:35.225|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - PASS stored '1' as ${size}
+2021-04-05 14:52:35.827|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - executing section(steps)(2)
+2021-04-05 14:52:35.828|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - PASS null
+2021-04-05 14:52:36.429|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - executing save(var,value)(country, $(array|item|list1|1))
+2021-04-05 14:52:36.430|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - PASS stored '' as ${country}
+2021-04-05 14:52:37.032|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - executing section(steps)(1)
+2021-04-05 14:52:37.033|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - PASS null
+2021-04-05 14:52:37.634|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - executing verbose(text)(${country})
+2021-04-05 14:52:37.636|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - 
+
+2021-04-05 14:52:37.636|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - PASS 
+2021-04-05 14:52:37.638|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - [repeat-until] PASS Macro successfully executed
+2021-04-05 14:52:37.639|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - executing verbose(text)(Nothing is changed)
+2021-04-05 14:52:37.640|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - 
+Nothing is changed
+2021-04-05 14:52:37.640|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - [repeat-until] PASS Nothing is changed
+2021-04-05 14:52:37.641|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - executing increment(var,amount)(count, 1)
+2021-04-05 14:52:37.643|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - [repeat-until] PASS incremented ${count} by 1 to 3
+2021-04-05 14:52:37.644|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #4 --------------------------------------------->
+2021-04-05 14:52:37.644|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 14:52:37.646|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 14:52:38.457|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-04-05 14:52:38.459|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-04-05 14:52:39.059|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - executing save(var,value)(countries, )
+2021-04-05 14:52:39.060|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - PASS stored '' as ${countries}
+2021-04-05 14:52:39.662|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-04-05 14:52:39.663|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - PASS stored '1' as ${size}
+2021-04-05 14:52:40.265|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - executing section(steps)(2)
+2021-04-05 14:52:40.266|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - PASS null
+2021-04-05 14:52:40.867|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - executing save(var,value)(country, $(array|item|list1|1))
+2021-04-05 14:52:40.869|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - PASS stored '' as ${country}
+2021-04-05 14:52:41.470|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - executing section(steps)(1)
+2021-04-05 14:52:41.471|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - PASS null
+2021-04-05 14:52:42.072|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - executing verbose(text)(${country})
+2021-04-05 14:52:42.073|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - 
+
+2021-04-05 14:52:42.073|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - PASS 
+2021-04-05 14:52:42.074|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - [repeat-until] PASS Macro successfully executed
+2021-04-05 14:52:42.075|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - executing verbose(text)(Nothing is changed)
+2021-04-05 14:52:42.075|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - 
+Nothing is changed
+2021-04-05 14:52:42.076|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 11|base.verbose(text)        - [repeat-until] PASS Nothing is changed
+2021-04-05 14:52:42.077|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - executing increment(var,amount)(count, 1)
+2021-04-05 14:52:42.078|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|# 12|number.increment(var,amou - [repeat-until] PASS incremented ${count} by 1 to 4
+2021-04-05 14:52:42.079|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #5 --------------------------------------------->
+2021-04-05 14:52:42.080|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 14:52:42.086|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1|#  8|base.repeatUntil(steps,ma - PASS repeat-until execution completed
+2021-04-05 14:52:42.093|I|Thread-2|wrongTotalStepTally.20210405_145215.001|Scenario1|Activity 1 - ending activity
+2021-04-05 14:52:42.925|I|Thread-2|[wrongTotalStepTally.20210405_145215.001|Scenario1] saving test scenario
+2021-04-05 14:52:43.065|I|Thread-2|[20210405_145211] 
+/-ITERATION COMPLETE------------------------------------------------------------
+| Test Output:    C:\projects\macro\output\20210405_145211\wrongTotalStepTally.20210405_145215.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 25302 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2021-04-05 14:52:44.672|I|Thread-2|[20210405_145211] 
+/-SCRIPT COMPLETE---------------------------------------------------------------
+| Test Script:    C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 30999 ms
+» Iterations:     [1] total 1
+» Test Steps:     10
+» Passed:         10
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\macro\output\20210405_145211\wrongTotalStepTally.20210405_145215.001.xlsx
+
+
+
+2021-04-05 14:52:44.672|I|Thread-2|nexial mailer not enabled: nexial.enableEmail=false
+2021-04-05 14:52:45.644|I|main|[20210405_145211] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] now completed
+2021-04-05 14:52:45.644|I|main|[20210405_145211] all execution thread(s) have terminated
+2021-04-05 14:52:45.644|I|main|[20210405_145211] test run completed in about 33 seconds
+2021-04-05 14:52:45.831|I|main|No predefined nexial-setup found
+2021-04-05 14:52:45.888|I|main|outputBase not set; output-to-cloud DISABLED!
+2021-04-05 14:52:45.888|I|main|accessKey not set; output-to-cloud DISABLED!
+2021-04-05 14:52:45.888|I|main|secretKey not set; output-to-cloud DISABLED!
+2021-04-05 14:52:45.889|I|main|generating HTML output for this execution to C:\projects\macro\output\20210405_145211\execution-output.html
+2021-04-05 14:52:47.105|I|main|generating JUnit XML output for this execution to C:\projects\macro\output\20210405_145211\junit.xml
+2021-04-05 14:52:47.155|I|main|generated JUnit report for this execution: C:\projects\macro\output\20210405_145211\junit.xml
+2021-04-05 14:52:47.159|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2021-04-05 14:52:47.159|I|main|skipped email notification as configured
+2021-04-05 14:52:47.159|I|main|exiting Nexial...
+2021-04-05 14:52:47.159|I|main|shutdown starts...
+2021-04-05 14:52:47.160|I|main|shutdown ends...
+2021-04-05 14:52:47.160|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 32 sec.
+| » Test Steps....: 10
+| » Passed........: 10
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\--------------------------------------------------------------------nexial-DEV-
+
+2021-04-05 14:52:47.160|I|main|ALL PASSED!
+2021-04-05 14:52:47.160|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\macro\output\20210405_145211
+NEXIAL_EXECUTION_HTML: C:\projects\macro\output\20210405_145211\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\macro\output\20210405_145211\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20210323_130601" timestamp="2021-03-23T13:06:04" time="13.590" tests="1" errors="1">
+  <testsuite id="1" name="wrongTotalStepTally" package="wrongTotalStepTally" hostname="ALIPLR3132" timestamp="2021-03-23T13:06:10" time="5.276" tests="1" errors="1">
+    <properties>
+      <property name="Run From" value="ALIPLR3132" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="AL3097" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="wrongTotalStepTally.xlsx" />
+      <property name="Logs" value="C:\projects\macro\output\20210323_130601\logs\nexial-20210323_130601.log" />
+      <property name="wrongTotalStepTally.20210323_130610.001.xlsx_Scenario1_A5.A5.log" value="C:\projects\macro\output\20210323_130601\logs\wrongTotalStepTally.20210323_130610.001.xlsx_Scenario1_A5.A5.log" />
+      <property name="Data File" value="wrongTotalStepTally.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario1" timestamp="2021-03-23T13:06:13" time="2.389">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\macro\output\20210323_130601\wrongTotalStepTally.20210323_130610.001.xlsx for execution result, C:\projects\macro\output\20210323_130601\logs\nexial-20210323_130601.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\macro\output\20210323_130601\wrongTotalStepTally.20210323_130610.001.xlsx
+Logs  : C:\projects\macro\output\20210323_130601\logs\nexial-20210323_130601.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

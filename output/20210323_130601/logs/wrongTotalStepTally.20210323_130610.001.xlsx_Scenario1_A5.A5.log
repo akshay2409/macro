@@ -1,0 +1,5 @@
+Nexial Version:    nexial-DEV
+Current Timestamp: 2021-03-23 13:06:14.510
+Test Step:         [wrongTotalStepTally.20210323_130610.001.xlsx][Scenario1][Activity 1][STEP   5][base][macro(file,sheet,name)]
+--------------------------------------------------------------------------------
+invalid filter '${country} starts-with U': does not match required format

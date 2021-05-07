@@ -1,0 +1,47 @@
+{
+  "schemes": [
+    {
+      "name": "Test Plan",
+      "summary": "description of your test plan, which includes test scripts listed below…",
+      "steps": [
+        {
+          "description": "description of first plan step",
+          "script": "macroTest.xlsx",
+          "scenarios": [
+            "Scenario"
+          ],
+          "data": "",
+          "datasheets": [],
+          "failFast": false,
+          "wait": true,
+          "skip": false
+        },
+        {
+          "description": "description of second plan step",
+          "script": "macroTest.xlsx",
+          "scenarios": [
+            "Scenario1"
+          ],
+          "data": "",
+          "datasheets": [],
+          "failFast": false,
+          "wait": true,
+          "skip": false
+        },
+        {
+          "description": "description of second plan step",
+          "script": "macroTest.xlsx",
+          "scenarios": [
+            "Scenario"
+          ],
+          "data": "",
+          "datasheets": [],
+          "failFast": false,
+          "wait": true,
+          "skip": false
+        }
+      ]
+    }
+  ],
+  "metaData": "ewogICJsYXN0TW9kaWZpZWRPbiI6ICIxMi8xNS8yMDIwIDAxOjE0OjI1IFBNIiwKICAibGFzdE1vZGlmaWVkQnkiOiAiQUwzMDk3IiwKICAiYW1wbGlmeVZlcnNpb24iOiAiYW1wbGlmeS1jb3JlIGRldl8wMTgzIiwKICAibmV4aWFsVmVyc2lvbiI6ICJuZXhpYWwtY29yZSBkZXZfMTAzMCIKfQ=="
+}

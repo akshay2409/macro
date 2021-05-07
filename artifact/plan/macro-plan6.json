@@ -1,0 +1,37 @@
+{
+  "schemes": [
+    {
+      "name": "scheme1",
+      "summary": "The description of scheme scheme1",
+      "steps": [
+        {
+          "description": "Description of first plan step",
+          "script": "macro.xlsx",
+          "scenarios": [
+            "scenario1",
+            "scenario2"
+          ],
+          "data": "",
+          "datasheets": [],
+          "failFast": false,
+          "wait": true,
+          "skip": false
+        },
+        {
+          "description": "Description of second plan step",
+          "script": "macroTest.xlsx",
+          "scenarios": [],
+          "data": "macroTest.data.xlsx",
+          "datasheets": [
+            "default",
+            "datasheet1"
+          ],
+          "failFast": true,
+          "wait": false,
+          "skip": true
+        }
+      ]
+    }
+  ],
+  "metaData": "ewogICJsYXN0TW9kaWZpZWRPbiI6ICIxMi8xNS8yMDIwIDAxOjQ5OjUyIFBNIiwKICAibGFzdE1vZGlmaWVkQnkiOiAiQUwzMDk3IiwKICAiYW1wbGlmeVZlcnNpb24iOiAibmV4aWFsLWFtcGxpZnkgZGV2XzAwMDAiLAogICJuZXhpYWxWZXJzaW9uIjogIm5leGlhbC1jb3JlIGRldl8wMDAwIgp9"
+}

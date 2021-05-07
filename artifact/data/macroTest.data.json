@@ -1,0 +1,299 @@
+{
+  "datasheets": [
+    {
+      "name": "#default",
+      "iterationCount": 20,
+      "scopeVariables": [
+        {
+          "name": "nexial.scope.fallbackToPrevious",
+          "value": "true"
+        },
+        {
+          "name": "nexial.scope.iteration",
+          "value": "1"
+        }
+      ],
+      "systemVariables": [
+        {
+          "name": "nexial.pollWaitMs",
+          "values": [
+            "800",
+            "",
+            "800",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "nexial.failFast",
+          "values": [
+            "false",
+            "",
+            "false",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "nexial.textDelim",
+          "values": [
+            ",",
+            "",
+            "|",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "nexial.verbose",
+          "values": [
+            "true",
+            "true",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "nexial.openResult",
+          "values": [
+            "true",
+            "true",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "dataVariables": [
+        {
+          "section": "",
+          "name": "name",
+          "values": [
+            "akshay",
+            "akshay",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "section": "",
+          "name": "file",
+          "values": [
+            "nexial-macro",
+            "nexial-macro",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "section": "",
+          "name": "macro",
+          "values": [
+            "$(artifact|macro|${file}|MacroLibrary|greetings)",
+            "$(artifact|macro|${file}|MacroLibrary|greetings)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.host",
+          "values": [
+            "smtp.gmail.com",
+            "smtp.gmail.com",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.port",
+          "values": [
+            "587",
+            "587"
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.from",
+          "values": [
+            "koreakshaykumar@gmail.com",
+            "koreakshaykumar@gmail.com"
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.auth",
+          "values": [
+            "true",
+            "true"
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.username",
+          "values": [
+            "koreakshaykumar@gmail.com",
+            "koreakshaykumar@gmail.com"
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.password",
+          "values": [
+            "Thenapster#9424",
+            "Thenapster#9424"
+          ]
+        },
+        {
+          "section": "",
+          "name": "Gmail.tls",
+          "values": [
+            "true",
+            "true"
+          ]
+        },
+        {
+          "section": "",
+          "name": "password",
+          "values": [
+            "crypt:800c73cd5828b3b74f6944d02996075dbd59d86d61125ead",
+            "crypt:800c73cd5828b3b74f6944d02996075dbd59d86d61125ead"
+          ]
+        }
+      ]
+    }
+  ],
+  "metaData": "dirp+UnPo5hrIreohb28HSzTh4UYPGtawYI/mai7KKsGvx6Es+HT2r6OZovJshycuJB7Eeeh4KaEfrEnLOO/lzoRmqnYugzxW8boqoyTs+o3PPOEF6DE51gTYgTSmBaFl3gFYmIt269/ASpHWyKG8kOTneQgVkVKRBuOSisSL7xwY/2U/6zgukT4xQNk18PfKZxb6/F2X3xGN+6lP0s6tA=="
+}

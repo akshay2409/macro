@@ -1,0 +1,68 @@
+2021-04-05 15:36:41.282|I|Thread-2|(DELAYED) nexial-DEV starting up...
+2021-04-05 15:36:41.289|I|Thread-2|(DELAYED) cleaning up outdated temp files...
+2021-04-05 15:36:41.289|I|Thread-2|(DELAYED) data file resolved as C:\Users\AL3097\AppData\Local\Temp\FpizQ\wrongTotalStepTally.data.xlsx
+2021-04-05 15:36:41.289|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:36:41.289|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:36:41.289|I|Thread-2|(DELAYED) input files and output directory resolved...
+2021-04-05 15:36:41.289|I|Thread-2|(DELAYED) No predefined nexial-setup found
+2021-04-05 15:36:41.291|I|Thread-2|(DELAYED) re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-04-05 15:36:41.291|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:36:41.291|I|Thread-2|(DELAYED) skipping data name in ROW 8 since it's disabled
+2021-04-05 15:36:41.291|I|Thread-2|(DELAYED) [20210405_153638] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] resolve RUN ID as 20210405_153638
+2021-04-05 15:36:41.291|I|Thread-2|(DELAYED) [20210405_153638] [C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx] new thread started
+2021-04-05 15:36:41.291|I|Thread-2|No predefined nexial-setup found
+2021-04-05 15:36:42.078|I|Thread-2|outputBase not set; output-to-cloud DISABLED!
+2021-04-05 15:36:42.078|I|Thread-2|accessKey not set; output-to-cloud DISABLED!
+2021-04-05 15:36:42.078|I|Thread-2|secretKey not set; output-to-cloud DISABLED!
+2021-04-05 15:36:42.746|I|Thread-2|missing REQUIRED configuration; sms DISABLED!
+2021-04-05 15:36:43.870|I|Thread-2|On-Demand Inspection detection enabled
+2021-04-05 15:36:43.871|I|Thread-2|[20210405_153638] executing C:\projects\macro\artifact\script\wrongTotalStepTally.xlsx with 1 iteration(s)
+2021-04-05 15:36:43.875|I|Thread-2|[20210405_153638] create directory C:\projects\macro\output\20210405_153638\captures
+2021-04-05 15:36:43.875|I|Thread-2|[20210405_153638] create directory C:\projects\macro\output\20210405_153638\logs
+2021-04-05 15:36:44.248|I|Thread-2|[20210405_153638] merging test data to tmp file C:\projects\macro\output\20210405_153638\wrongTotalStepTally.20210405_153643.001.xlsx
+2021-04-05 15:36:44.248|I|Thread-2|re-fetching data from C:\projects\macro\artifact\data\wrongTotalStepTally.data.xlsx
+2021-04-05 15:36:44.347|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-04-05 15:36:44.471|I|Thread-2|skipping data name in ROW 8 since it's disabled
+2021-04-05 15:36:44.903|I|Thread-2|[20210405_153638] test script and test data merged to C:\projects\macro\output\20210405_153638\wrongTotalStepTally.20210405_153643.001.xlsx
+2021-04-05 15:36:45.646|I|Thread-2|STARTS
+2021-04-05 15:36:45.658|I|Thread-2|skipping test step in ROW 5 since it's disabled
+2021-04-05 15:36:45.707|I|Thread-2|wrongTotalStepTally.20210405_153643.001 - executing iteration #1 of 1; Iteration Id 1
+2021-04-05 15:36:45.717|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1 - executing test scenario
+2021-04-05 15:36:45.718|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 - executing activity
+2021-04-05 15:36:46.320|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray)
+2021-04-05 15:36:46.323|I|Thread-2|evaluating flow control:	SkipIf(true = true)		=> MATCHED
+2021-04-05 15:36:46.519|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  5|base.macro(file,sheet,nam - SKIPPED current step skipped: SkipIf(true)
+2021-04-05 15:36:47.120|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  6|base.section(steps)       - executing section(steps)(2)
+2021-04-05 15:36:47.144|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  6|base.section(steps)       - PASS null
+2021-04-05 15:36:47.746|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  7|base.save(var,value)      - executing save(var,value)(count, 0)
+2021-04-05 15:36:47.754|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  7|base.save(var,value)      - PASS stored '0' as ${count}
+2021-04-05 15:36:48.356|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  8|base.repeatUntil(steps,ma - executing repeatUntil(steps,maxWaitMs)(4, -1)
+2021-04-05 15:36:51.783|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #1 --------------------------------------------->
+2021-04-05 15:36:51.785|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 15:36:52.719|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 15:36:59.047|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - executing save(var,value)(list1, Canada,Australia,USA,India,Russia,UK)
+2021-04-05 15:36:59.048|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 16|base.save(var,value)      - PASS stored 'Canada,Australia,USA,India,Russia,UK' as ${list1}
+2021-04-05 15:36:59.649|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - executing save(var,value)(countries, )
+2021-04-05 15:36:59.651|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 17|base.save(var,value)      - PASS stored '' as ${countries}
+2021-04-05 15:37:00.252|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - executing save(var,value)(size, $(array|length|list1))
+2021-04-05 15:37:00.268|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 18|base.save(var,value)      - PASS stored '1' as ${size}
+2021-04-05 15:37:00.869|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - executing section(steps)(2)
+2021-04-05 15:37:00.870|I|Thread-2|evaluating flow control:	ProceedIf(false = false)		=> NOT MATCHED
+2021-04-05 15:37:00.870|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 19|base.section(steps)       - SKIPPED current step skipped: NOT TRUE(false)
+2021-04-05 15:37:50.076|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 20|base.save(var,value)      - SKIPPED current step skipped due to the enclosing section command being skipped
+2021-04-05 15:37:50.080|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 21|base.section(steps)       - SKIPPED current step skipped due to the enclosing section command being skipped
+2021-04-05 15:37:50.082|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1 (addArray1)|# 22|base.verbose(text)        - SKIPPED current step skipped due to the enclosing section command being skipped
+2021-04-05 15:37:50.086|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - [repeat-until] PASS Macro successfully executed
+2021-04-05 15:37:50.087|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 11|base.verbose(text)        - executing verbose(text)(Nothing is changed)
+2021-04-05 15:37:50.088|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 11|base.verbose(text)        - 
+Nothing is changed
+2021-04-05 15:37:50.088|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 11|base.verbose(text)        - [repeat-until] PASS Nothing is changed
+2021-04-05 15:37:50.089|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 12|number.increment(var,amou - executing increment(var,amount)(count, 1)
+2021-04-05 15:37:50.092|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 12|number.increment(var,amou - [repeat-until] PASS incremented ${count} by 1 to 1
+2021-04-05 15:37:50.093|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - 
+<[repeat-until] entering loop #2 --------------------------------------------->
+2021-04-05 15:37:50.093|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${count}, 4)
+2021-04-05 15:37:50.095|I|Thread-2|wrongTotalStepTally.20210405_153643.001|Scenario1|Activity 1|# 10|base.macro(file,sheet,nam - executing macro(file,sheet,name)(repeatUntil.xlsx, repeatUntilEx, addArray1)
+2021-04-05 15:37:50.159|I|Thread-1|shutdown starts...
+2021-04-05 15:37:50.159|I|Thread-1|shutdown ends...
