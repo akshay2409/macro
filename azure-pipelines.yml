@@ -1,0 +1,73 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+parameters:
+  - name: NEXIAL_HOME
+    displayName: Nexial Location
+    type: string
+    default: C:\projects\nexial-core
+  - name: AVIMARK_HOME
+    displayName: AVIMark Location
+    type: string
+    default: C:\AVIMARK\Automation\Avimark
+  - name: SCRIPT_NAME
+    displayName: Target Nexial Plan
+    type: string
+    default: Appointment
+    values:
+      - Accounting
+      - Appointment
+      - AppointmentToInvoice
+      - BoardingCalendar
+      - ClientandPatient
+      - DentalChart
+      - DrugLables
+      - EndOfPeriodReports
+      - Idexx
+      - InfoSearch
+      - InventoryList
+      - Invoice
+      - MedicalConditionRecord
+      - MedicalHistory
+      - MoreStuff
+      - Server
+      - Statements
+      - TimeCard
+      - TreatmentList
+      - Unauthorized
+      - WhiteBoard
+
+trigger: none
+
+pool: LocalAgents
+#   vmImage: ubuntu-latest
+
+steps:
+  - script: |
+      set NEXIAL_HOME=${{ parameters.NEXIAL_HOME }}
+      set AVIMARK_HOME=${{ parameters.AVIMARK_HOME }}
+      set PROJECT_HOME=$(Build.Repository.LocalPath)
+      set SCRIPT_NAME=${{ parameters.SCRIPT_NAME }}
+      set SCRIPT_FILE=%PROJECT_HOME%\artifact\script\%SCRIPT_NAME%.xlsx
+      set NEXIAL_OUTPUT=
+      echo '%PROJECT_HOME%'
+      echo '%NEXIAL_HOME%'
+      echo '%SCRIPT_FILE%'
+      echo '$(System.DefaultWorkingDirectory)/output'
+      cd /d %NEXIAL_HOME%
+      cd bin
+      nexial.cmd -script %SCRIPT_FILE%
+      echo.
+    displayName: Run AVIMark POC script
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: |
+        /**/junit.xml
+        **/junit.xml
+      searchFolder: '$(System.DefaultWorkingDirectory)/output'
+      mergeTestResults: true
+      failTaskOnFailedTests: true
+      testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
