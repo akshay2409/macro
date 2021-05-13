@@ -8,10 +8,6 @@ parameters:
     displayName: Nexial Location
     type: string
     default: C:\projects\nexial-core
-  - name: AVIMARK_HOME
-    displayName: AVIMark Location
-    type: string
-    default: C:\AVIMARK\Automation\Avimark
   - name: SCRIPT_NAME
     displayName: Target Nexial script
     type: string
@@ -31,7 +27,6 @@ pool: LocalAgent
 steps:
   - script: |
       set NEXIAL_HOME=${{ parameters.NEXIAL_HOME }}
-      set AVIMARK_HOME=${{ parameters.AVIMARK_HOME }}
       set PROJECT_HOME=$(Build.Repository.LocalPath)
       set SCRIPT_NAME=${{ parameters.SCRIPT_NAME }}
       set SCRIPT_FILE=%PROJECT_HOME%\artifact\script\%SCRIPT_NAME%.xlsx
