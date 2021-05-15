@@ -21,7 +21,7 @@ parameters:
 
 trigger: none
 
-pool: LocalAgent
+pool: Azure Pipelines
 #   vmImage: ubuntu-latest
 
 steps:
