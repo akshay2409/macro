@@ -35,7 +35,7 @@ steps:
       cd bin
       nexial.cmd -script %SCRIPT_FILE%
       echo.
-    displayName: Run AVIMark POC script
+    displayName: Run wrongTotalStep POC script
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
