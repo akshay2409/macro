@@ -30,6 +30,7 @@ steps:
       set PROJECT_HOME=$(Build.Repository.LocalPath)
       set SCRIPT_NAME=${{ parameters.SCRIPT_NAME }}
       set SCRIPT_FILE=%PROJECT_HOME%\artifact\script\%SCRIPT_NAME%.xlsx
+      set nexial.openResult=false
       set NEXIAL_OUTPUT=
       cd /d %NEXIAL_HOME%
       cd bin
