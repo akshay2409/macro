@@ -47,3 +47,4 @@ steps:
       mergeTestResults: true
       failTaskOnFailedTests: true
       testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
+      publishRunAttachments: true
