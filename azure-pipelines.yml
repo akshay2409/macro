@@ -44,15 +44,7 @@ steps:
         /**/junit.xml
         **/junit.xml
       searchFolder: '$(System.DefaultWorkingDirectory)/output'
-      mergeTestResults: true
+      mergeTestResults: false
       failTaskOnFailedTests: true
       testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
       publishRunAttachments: true
-  - task: CopyFiles@2
-    inputs:
-      contents: 'output/execution-output.html'
-      targetFolder: $(Build.ArtifactStagingDirectory)
-  - task: PublishBuildArtifacts@1 
-    inputs:
-      pathToPublish: $(Build.ArtifactStagingDirectory)
-      artifactName: MyBuildOutputs
