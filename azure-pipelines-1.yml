@@ -3,6 +3,22 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+parameters:
+  - name: NEXIAL_HOME
+    displayName: Nexial Location
+    type: string
+    default: C:\projects\nexial-core
+  - name: SCRIPT_NAME
+    displayName: Target Nexial script
+    type: string
+    default: macroTest
+    values:
+      - complex-script
+      - macro1Test
+      - macroTest2
+      - macroTest
+      - wrongTotalStepTally
+
 trigger: none
 
 pool: LocalAgent
@@ -10,9 +26,17 @@ pool: LocalAgent
 
 steps:
   - script: |
+      set NEXIAL_HOME=${{ parameters.NEXIAL_HOME }}
+      set PROJECT_HOME=$(Build.Repository.LocalPath)
+      set SCRIPT_NAME=${{ parameters.SCRIPT_NAME }}
+      set SCRIPT_FILE=%PROJECT_HOME%\artifact\script\%SCRIPT_NAME%.xlsx
+
+      echo 'SourceDir: $(Build.SourcesDirectory)'
+      set NEXIAL_OUTPUT=
+      cd /d %NEXIAL_HOME%
+
       echo Current Directory                  %CD%
       dir /w
-      echo.
       echo NEXIAL_HOME                        ${{ parameters.NEXIAL_HOME }}
       echo AVIMARK_HOME                       ${{ parameters.AVIMARK_HOME }}
       echo Agent.BuildDirectory               $(Agent.BuildDirectory)
@@ -69,4 +93,3 @@ steps:
       echo System.TeamProject                 $(System.TeamProject)
       echo System.TeamProjectId               $(System.TeamProjectId)
       echo.
-      displayName: Run verbose variables pipeline
