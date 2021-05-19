@@ -38,7 +38,6 @@ steps:
       echo Current Directory                  %CD%
       dir /w
       echo NEXIAL_HOME                        ${{ parameters.NEXIAL_HOME }}
-      echo AVIMARK_HOME                       ${{ parameters.AVIMARK_HOME }}
       echo Agent.BuildDirectory               $(Agent.BuildDirectory)
       echo Agent.HomeDirectory                $(Agent.HomeDirectory)
       echo Agent.Id                           $(Agent.Id)
