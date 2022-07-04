@@ -35,9 +35,9 @@ steps:
       nexial.cmd -script %SCRIPT_FILE%
       echo.
       displayName: Run wrongTotalStep POC script
-      - task: PublishTestResults@2
-        inputs:
-          testResultsFormat: 'JUnit'
-          testResultsFiles: '**/junit.xml'
-          searchFolder: '$(System.DefaultWorkingDirectory)/output'
-          failTaskOnFailedTests: true
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/junit.xml'
+      searchFolder: '$(System.DefaultWorkingDirectory)/output'
+      failTaskOnFailedTests: true
