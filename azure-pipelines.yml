@@ -44,13 +44,4 @@ steps:
         /**/vstest.trx
         **/vstest.trx
       searchFolder: '$(System.DefaultWorkingDirectory)/output'
-      failTaskOnFailedTests: true
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: |
-      /**/vstest.trx
-      **/vstest.trx
-    searchFolder: '$(System.DefaultWorkingDirectory)/output'
-    testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
       testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
