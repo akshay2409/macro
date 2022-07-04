@@ -39,12 +39,10 @@ steps:
       displayName: Run wrongTotalStep POC script
   - task: PublishTestResults@2
     inputs:
-      testResultsFormat: 'JUnit'
+      testResultsFormat: 'VSTest'
       testResultsFiles: |
-        /**/junit.xml
-        **/junit.xml
+        /**/vstest.trx
+        **/vstest.trx
       searchFolder: '$(System.DefaultWorkingDirectory)/output'
-      mergeTestResults: false
       failTaskOnFailedTests: true
       testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
-      publishRunAttachments: true
