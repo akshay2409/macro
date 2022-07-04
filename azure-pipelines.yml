@@ -19,6 +19,8 @@ parameters:
       - macroTest
       - wrongTotalStepTally
 
+trigger: none
+
 pool: Default
 #   vmImage: ubuntu-latest
 
@@ -38,6 +40,6 @@ steps:
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
-      testResultsFiles: '**/*.trx'
+      testResultsFiles: '**/vstest.trx'
       searchFolder: '$(System.DefaultWorkingDirectory)/output/'
       failTaskOnFailedTests: true
