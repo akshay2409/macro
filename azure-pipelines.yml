@@ -41,7 +41,7 @@ steps:
     inputs:
       testResultsFormat: 'VSTest'
       testResultsFiles: |
-        /**/*.trx
-        **/*.trx
+        \**\*.trx
+        **\*.trx
       searchFolder: '$(System.DefaultWorkingDirectory)/output'
       testRunTitle: 'TestPlan :: ${{ parameters.SCRIPT_NAME }}'
