@@ -39,5 +39,5 @@ steps:
     inputs:
       testResultsFormat: 'JUnit'
       testResultsFiles: '**/junit.xml'
-      searchFolder: '$(System.DefaultWorkingDirectory)/output'
+      searchFolder: '$(System.DefaultWorkingDirectory)/output/'
       failTaskOnFailedTests: true
