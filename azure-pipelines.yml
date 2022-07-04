@@ -39,7 +39,7 @@ steps:
       displayName: Run wrongTotalStep POC script
   - task: PublishTestResults@2
     inputs:
-      testResultsFormat: 'VSTest'
-      testResultsFiles: '**/vstest.trx'
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/junit.xml'
       searchFolder: '$(System.DefaultWorkingDirectory)/output/'
       failTaskOnFailedTests: true
