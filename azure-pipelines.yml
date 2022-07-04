@@ -38,6 +38,6 @@ steps:
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
-      testResultsFiles: '**/junit.xml'
+      testResultsFiles: '**/*.trx'
       searchFolder: '$(System.DefaultWorkingDirectory)/output/'
       failTaskOnFailedTests: true
