@@ -41,4 +41,5 @@ steps:
     inputs:
       testResultsFormat: 'VSTest'
       testResultsFiles: '**/*.trx'
+      searchFolder: '$(System.DefaultWorkingDirectory)/output/'
       failTaskOnFailedTests: true
