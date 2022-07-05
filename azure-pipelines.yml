@@ -21,7 +21,7 @@ parameters:
 
 trigger: none
 
-pool: LocalAgent
+pool: MyAgent
 #   vmImage: ubuntu-latest
 
 steps:
