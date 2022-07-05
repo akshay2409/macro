@@ -43,5 +43,5 @@ steps:
       testResultsFiles: |
         **/*.trx
         *.trx
-      searchFolder: '$(System.DefaultWorkingDirectory)'
+      searchFolder: '$(System.DefaultWorkingDirectory)/output/'
       failTaskOnFailedTests: true
